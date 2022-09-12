@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+textarea{
+    margin-top: 13px;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border-radius: 5px;
+    margin-top: 4px;
+    border: 2px solid black;
+}
+
+#calculator{
+    width: 254px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.delbtn{
+    width: 108px;
+    background-color: red;
+    color: white;
+}
+
+.operator{
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.greenbtn{
+    background-color: rgb(115, 188, 6);
+    color: white;
+}
+
+#switches{
+    margin-bottom: 8px;
+}
