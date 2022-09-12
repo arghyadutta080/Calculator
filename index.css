@@ -28,6 +28,10 @@ textarea{
     flex-direction: column;
 }
 
+textarea{
+    border-radius: 6px;
+}
+
 .delbtn{
     width: 108px;
     background-color: red;
