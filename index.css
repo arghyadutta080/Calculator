@@ -6,7 +6,9 @@ body{
 }
 
 textarea{
-    margin-top: 13px;
+    margin-top: 14px;
+    margin-bottom: 2.5px;
+    /* font-size: 14px; */
 }
 
 .button{
@@ -16,6 +18,7 @@ textarea{
     border-radius: 7px;
     margin-top: 4px;
     border: 2px solid black;
+    font-size: 15px;
 }
 
 .button:hover{
@@ -76,7 +79,7 @@ textarea{
 }
 
 #switches{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .yellowbtn{
