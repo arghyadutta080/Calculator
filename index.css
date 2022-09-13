@@ -51,3 +51,8 @@ textarea{
 #switches{
     margin-bottom: 8px;
 }
+
+.yellowbtn{
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
