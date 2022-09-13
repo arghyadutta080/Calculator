@@ -10,16 +10,24 @@ textarea{
 }
 
 .button{
-    height: 56px;
-    width: 56px;
+    height: 61px;
+    width: 61px;
     margin: 2px;
     border-radius: 7px;
     margin-top: 4px;
     border: 2px solid black;
 }
 
+.button:hover{
+    background-color: rgb(196, 187, 187);
+}
+
+.button:active{
+    background-color: rgb(159, 153, 153);
+}
+
 #calculator{
-    width: 270px;
+    width: 298px;
     border-radius: 14px;
     background-color: black;
     display: flex;
@@ -33,19 +41,38 @@ textarea{
 }
 
 .delbtn{
-    width: 120px;
+    width: 131px;
     background-color: red;
     color: white;
 }
+.delbtn:hover{
+    background-color: rgb(255, 81, 0);
+}
+.delbtn:active{
+    background-color: red;
+}
 
 .operator{
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(0, 127, 220);
     color: white;
+}
+
+.operator:hover{
+    background-color: rgb(0, 81, 255);
+}
+.operator:active{
+    background-color: rgb(0, 71, 202);
 }
 
 .greenbtn{
     background-color: rgb(115, 188, 6);
     color: white;
+}
+.greenbtn:hover{
+    background-color: rgb(5, 184, 5);
+}
+.greenbtn:active{
+    background-color: rgb(24, 130, 24);
 }
 
 #switches{
@@ -53,6 +80,12 @@ textarea{
 }
 
 .yellowbtn{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(251, 160, 24);
     color: white;
+}
+.yellowbtn:hover{
+    background-color: rgb(245, 120, 37);
+}
+.yellowbtn:active{
+    background-color: rgb(255, 85, 0);
 }

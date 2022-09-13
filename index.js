@@ -1,4 +1,6 @@
 str = ""
+let blank
+let new_str
 buttons = document.querySelectorAll('.button')
 
 Array.from(buttons).forEach((btn) => {
@@ -76,7 +78,7 @@ Array.from(buttons).forEach((btn) => {
             str = str.replace("pi", "Math.PI")
             str = str.replace("e", "Math.E")
             str = str.replace("ln", "Math.log")
-            str = str.replace(blank, x)
+            str = str.replace(blank, new_str)
             str = str.replace("√", "Math.sqrt")
             str = str.replace("^", "**")
             str = eval(str)
