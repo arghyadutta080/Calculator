@@ -73,15 +73,20 @@ Array.from(buttons).forEach((btn) => {
 
         else if (e == "=") {
             str = str.replace("sin", "Math.sin")
+            str = str.replace("cos(pi/2)", "0")
             str = str.replace("cos", "Math.cos")
+            str = str.replace("tan(pi/2)", "(1/0)")
             str = str.replace("tan", "Math.tan")
             str = str.replace("pi", "Math.PI")
             str = str.replace("e", "Math.E")
             str = str.replace("ln", "Math.log")
             str = str.replace(blank, new_str)
             str = str.replace("√", "Math.sqrt")
+            str = str.replace("0^0", "undefined")
             str = str.replace("^", "**")
             str = eval(str)
+            str = str.toString();
+            str = str.replace("NaN", "undefined")
             document.querySelector('textarea').value = str
         }
     })
