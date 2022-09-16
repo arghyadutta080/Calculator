@@ -23,7 +23,7 @@ Array.from(buttons).forEach((btn) => {
             return ans
         }
 
-        if (e != "=" && e != "ON" && e != "OFF" && e != "DEL" && e != "x^y" && e != "x!" && e != "√" && e != "sin" && e != "tan" && e != "cos") {
+        if (e != "=" && e != "ON" && e != "OFF" && e != "DEL" && e != "x^y" && e != "x!" && e != "√" && e != "sin" && e != "tan" && e != "cos" && e != "ln") {
             str = str + e
             document.querySelector('textarea').value = str
         }
@@ -83,6 +83,11 @@ Array.from(buttons).forEach((btn) => {
 
         else if (e == "cos") {
             str = str + "cos("
+            document.querySelector('textarea').value = str
+        }
+
+        else if (e == "ln") {
+            str = str + "ln("
             document.querySelector('textarea').value = str
         }
 
