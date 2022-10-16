@@ -1,7 +1,7 @@
 # Calculator
 This simple calculator can do multiple mathematical operations, including basic arithmetic operations, some trigonometric operations and some other general operations
 
-## Using instructions
+## Instructions for users
 ### For Trigonometric operations
 During Trigonometric operation put the angles in radiun form to get the correct output. 
 
