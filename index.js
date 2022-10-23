@@ -92,21 +92,22 @@ Array.from(buttons).forEach((btn) => {
         }
 
         else if (e == "=") {
-            str = str.replace("sin", "Math.sin")
-            str = str.replace("cos(pi/2)", "0")
-            str = str.replace("cos", "Math.cos")
-            str = str.replace("tan(pi/2)", "(1/0)")
-            str = str.replace("tan", "Math.tan")
-            str = str.replace("pi", "Math.PI")
-            str = str.replace("e", "Math.E")
-            str = str.replace("ln", "Math.log")
-            str = str.replace(blank, new_str)
-            str = str.replace("√", "Math.sqrt")
-            str = str.replace("0^0", "undefined")
-            str = str.replace("^", "**")
+            str = str.replaceAll("^", "**")
+            str = str.replaceAll("sin", "Math.sin")
+            str = str.replaceAll("cos(pi/2)", "0")
+            str = str.replaceAll("cos", "Math.cos")
+            str = str.replaceAll("tan(pi/2)", "(1/0)")
+            str = str.replaceAll("tan", "Math.tan")
+            str = str.replaceAll("pi", "Math.PI")
+            str = str.replaceAll("e", "Math.E")
+            str = str.replaceAll("ln", "Math.log")
+            str = str.replaceAll(blank, new_str)
+            str = str.replaceAll("√", "Math.sqrt")
+            str = str.replaceAll("0^0", "undefined")
             str = eval(str)
             str = str.toString();
-            str = str.replace("NaN", "undefined")
+            str = str.replaceAll("NaN", "undefined")
+            str = str.replace("1.2246467991473532e-16", "0")
             document.querySelector('textarea').value = str
         }
     })
