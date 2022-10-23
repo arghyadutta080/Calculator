@@ -3,10 +3,17 @@ This simple calculator can do multiple mathematical operations, including basic 
 
 ## Instructions for users
 ### For Trigonometric operations
-During Trigonometric operation put the angles in radiun form to get the correct output. 
+During Trigonometric operation put the angles in radian form to get the correct output. 
 
-Eg. Instead of sin(30°), write sin(pi/6). 
-### For general algebric operations
-To avoid wrong output, use power operations by parts. 
+Eg. Instead of sin(30°), write sin(pi/6).
 
-Eg. Instead of doing (5^2 + 3^3), first calculate 5^2, then add 3^3 with the previous output to get the final desired output. 
+Some daily used trigonometric angles ...
+
+Degree  |  Radian
+------- | -------
+  0°    |    0
+  30°   |    pi/6
+  45°   |    pi/4
+  60°   |    pi/3
+  90°   |    pi/2
+  180°  |    pi   
