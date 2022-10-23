@@ -7,7 +7,7 @@ During Trigonometric operation put the angles in radian form to get the correct 
 
 Eg. Instead of sin(30°), write sin(pi/6).
 
-Some daily used trigonometric angles ...
+**Some daily used trigonometric angles ...**
 
 Degree  |  Radian
 ------- | -------
